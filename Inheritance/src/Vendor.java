@@ -6,8 +6,8 @@ public class Vendor extends Employee {
 	public Vendor() {
 		super();
 	}
-	public Vendor(int id, String name, String email, String mob,String dept, LocalDate doj,int num_of_emp, int amt) {
-		super(id,name,email,mob,dept,doj);
+	public Vendor(int id, String name, String email, String mob,String dept,String desg,LocalDate doj,int num_of_emp, int amt) {
+		super(id,name,email,mob,dept,desg,doj);
 		this.num_of_emp = num_of_emp;
 		this.amt = amt;
 	}

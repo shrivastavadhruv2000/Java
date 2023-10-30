@@ -4,36 +4,36 @@ public class Person {
 	
 
 	private int id;
-	private String name;
+	private String pname;
 	private String email;
-	private String mob;
+	private String mobile;
 	
 	public Person() {
 		System.out.println("default person");
 	}
 
-	public Person(int id, String name, String email, String mob) {
+	public Person(int id, String pname, String mob,String email) {
 		super();
 		this.id = id;
-		this.name = name;
+		this.pname = pname;
 		this.email = email;
-		this.mob = mob;
+		this.mobile = mobile;
 	}
 
-	public int getId() {
+	public int getPid() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setPid(int pid) {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getPname() {
+		return pname;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setPname(String pname) {
+		this.pname = pname;
 	}
 
 	public String getEmail() {
@@ -44,17 +44,17 @@ public class Person {
 		this.email = email;
 	}
 
-	public String getMob() {
-		return mob;
+	public String getMobile() {
+		return mobile;
 	}
 
-	public void setMob(String mob) {
-		this.mob = mob;
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
 	}
 
 	@Override
 	public String toString() {
-		return "Person [id=" + id + ", name=" + name + ", email=" + email + ", mob=" + mob + "]";
+		return "Person [id=" + id + ", name=" + pname + ", email=" + email + ", mob=" + mobile + "]";
 	}
 	
 	
